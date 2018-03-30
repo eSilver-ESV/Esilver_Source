@@ -1,0 +1,26 @@
+src/*.exe
+src/esilver
+src/esilverd
+src/test_esilver
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.esilver
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+esilver-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
